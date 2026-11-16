@@ -1,0 +1,39 @@
+{
+  "bundle_version": 3,
+  "bundle_name": "inference-bundle-v3-r1",
+  "algorithm": "multimodal_fusion_hist_gradient_boosting_viterbi",
+  "trained_dataset": "SoccerTrack 117093",
+  "features_total": 26,
+  "tracking_features": 18,
+  "visual_features": 8,
+  "classes": [
+    "H",
+    "A",
+    "D"
+  ],
+  "headline_metrics": {
+    "val_macro_f1": 0.78359,
+    "val_spell_f1_mean": 0.29947,
+    "val_spell_f1_at_05": 0.31016,
+    "val_accuracy": 0.78883,
+    "val_alive_dead_f1": 0.92275
+  },
+  "member_sha256": {
+    "feature_contract.json": "bde59427b3958840b97173eb13235709a5c7f6b1f909cc3e016a9c123924eb70",
+    "model/decoder_parameters.json": "ecfb777a2fe7477a0b4f3e04ee2ad9919182a833e95e33701f116f90b67c390e",
+    "model/model.joblib": "32aee085f46f4066d98eb6ab815cbae054728d9a432f7bb4274c4d26ee04c28c",
+    "README.md": "ceebdd6acd61d7a646f7d05fdb1cc3fe0d7750c07024d1e6e0cf881b148985b2",
+    "requirements.txt": "6c9e19229e86dab9df25465e0cd6b70b8c05fa76db95436f6c2de6df3f8f0002",
+    "run_multimodal.py": "5006883bf208bbdca984bc436a57da4a9ecb34595ff0d19142fc45be6eaa5c8a",
+    "src/multimodal_bundle/__init__.py": "aa510e8721637e8621e9b225df795653a33b8e423cdda31b577a9dd493a2bb2f",
+    "src/multimodal_bundle/atd_parser.py": "d3c9cfb2c5d4b97265bf46190c97b60ae6a19f59e99b5baf1432a93353563c56",
+    "src/multimodal_bundle/bundle_verifier.py": "67b3772bc1929657e4137f82d683480fc03b2afe1b0b214f928718a5fca578a1",
+    "src/multimodal_bundle/contracts.py": "bf2a09209733daca57eb332246075d763f351bbf2e0cd5ec1052d076cf335653",
+    "src/multimodal_bundle/pipeline.py": "0b09098bc787253978d8042269d785646ec2584aa8f8c4573e006c9ae069bb0c",
+    "src/multimodal_bundle/temporal_decoder.py": "73032c218ff58668105e267635dfe4a455aa7ba0abbbb3180799efef07c39407",
+    "src/multimodal_bundle/tracking_features.py": "4c290ba55f09e6f2b261e0885b3a5dbeddc191378ea47cd1b9afb5a6287b4a2b",
+    "src/multimodal_bundle/visual_features.py": "99f9b714ec96a81aba3f6fb7c9ac9e9439f0d4679fcd6a8d0341c2cbfe622e4f",
+    "src/organizer_game_metadata.py": "473bf0502a28d93ff49fe5c20be4e546e30a9d8fa4112ab50b1ecdaf44233064",
+    "verify_bundle.py": "04ff06de455288e651146ee1eedf1bb05f472fbcd63069dc65186deb01dd7011"
+  }
+}
