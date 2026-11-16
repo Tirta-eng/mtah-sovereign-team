@@ -61,7 +61,7 @@ Python **3.10** or **3.11** is recommended.
 
 ```bash
 # 1. Clone repository
-git clone [https://github.com/Tirta-eng/mtah-sovereign-team.git](https://github.com/Tirta-eng/mtah-sovereign-team.git)
+git clone [https://github.com/Tirta-eng/mtah-sovereign-team.git]
 cd mtah-sovereign-team
 
 # 2. Create and activate virtual environment
